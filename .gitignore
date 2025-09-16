@@ -4,6 +4,7 @@
 # source files
 images
 *.jpg
+*.png
 
 # model weights
 models
