@@ -1,0 +1,10 @@
+# venv
+.venv
+
+# source files
+images
+*.jpg
+
+# model weights
+models
+gfpgan
