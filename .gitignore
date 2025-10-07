@@ -9,3 +9,7 @@ images
 # model weights
 models
 gfpgan
+
+# IDE files
+.idea
+.vscode
