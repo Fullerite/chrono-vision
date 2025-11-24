@@ -1,7 +1,3 @@
 # ChronoVision
 
-**ChronoVision** is a deep learning project designed to restore and colorize historical black-and-white photographs. The goal is to create a robust pipeline that takes a low-quality, grayscale image as input and produces a high-resolution, colorized restored image as output.
-
-This project is valuable as it makes history more accessible and relatable to a modern audience. By restoring clarity and adding color, we can bring historical moments and figures to life. Our target users include historians, archivists, educational institutions, and genealogy enthusiasts seeking to restore family photos.
-
-The core of our project involves integrating multiple specialized AI models and fine-tuning a custom U-Net for the colorization stage.
+ChronoVision is a deep learning pipeline designed to restore and colorize historical black-and-white photographs by converting low-quality grayscale inputs into high-resolution color outputs. By integrating a custom fine-tuned U-Net (EfficientNet-B2) for chrominance prediction with specialized restoration models (GFPGAN and Real-ESRGAN), the system mitigates semantic ambiguity and hallucinates missing textural details. This project aims to make history more accessible for archivists and educators by bridging the gap between deterministic colorization and generative facial restoration.
