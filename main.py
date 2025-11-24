@@ -13,7 +13,6 @@ def main():
     inputs_path = "data/test_inputs"
     outputs_path = "data/test_outputs"
     
-    # Ensure output directory exists
     os.makedirs(outputs_path, exist_ok=True)
 
     # Initialize Pipeline
@@ -37,7 +36,7 @@ def main():
             # Get filename without extension
             base_name = os.path.splitext(image_name)[0]
 
-            # Display Results (Optional: Comment out if running in headless environment)
+            # Display Results
             plt.figure(figsize=(15, 8))
 
             plt.subplot(1, 3, 1)
