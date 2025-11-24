@@ -2,7 +2,7 @@
 .venv
 
 # source files
-images
+data
 *.jpg
 *.png
 
