@@ -6,7 +6,7 @@ from realesrgan import RealESRGANer
 class RealESRGANEnhancer:
     def __init__(
         self,
-        model_path: str = "../models/RealESRGAN_x4plus.pth",
+        model_path: str,
         scale: int = 4,
         tile: int = 256,
         device: str | None = None,

@@ -7,8 +7,8 @@ from src.realesrgan_enhancer import RealESRGANEnhancer
 class GFPGANEnhancer:
     def __init__(
         self,
-        model_path: str = "../models/GFPGANv1.3.pth",
-        bg_model_path: str = "../models/RealESRGAN_x4plus.pth",
+        model_path: str,
+        bg_model_path: str,
         upscale: int = 4,
         tile: int = 256,
         device: str | None = None,
