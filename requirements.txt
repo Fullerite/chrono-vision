@@ -8,3 +8,5 @@ basicsr
 facexlib
 gfpgan
 realesrgan
+fastapi
+uvicorn
